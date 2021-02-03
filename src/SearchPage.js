@@ -35,23 +35,6 @@ function SearchPage() {
                         More filters
                     </Button>
             </div>
-            <SearchResult
-                img="https://a0.muscache.com/im/pictures/6c0e09d9-2537-4c2a-9180-4f14e22a1996.jpg?im_w=1200"
-                location='Farm stay in Damkhind'
-                title='Aamchi Wadi'
-                description='3 guests · 1 bedroom · 2 beds · 1 bathroom'
-                star={4.95}
-                price="₹1,200/ night"
-                total="₹6,800" />
-
-            <SearchResult 
-                img="https://a0.muscache.com/im/pictures/579f5726-1f4e-48dd-8512-00cd0775943b.jpg?im_w=1440"
-                location="Farm stay in Idukki"
-                title="Manoor Farms: mountain stays"
-                description="4 guests · 1 bedroom · 1 bed · 1 bathroom"
-                star={4.83}
-                price="₹2,500/ night"
-                total="₹7,500"/>
 
             <SearchResult
                 img="https://a0.muscache.com/im/pictures/23844d6f-0acc-4d69-b627-26a70906ac45.jpg?im_w=1200"
@@ -61,6 +44,15 @@ function SearchPage() {
                 star={4.80}
                 price="₹2,920/ night"
                 total="₹9,000" />
+
+            <SearchResult 
+                img="https://a0.muscache.com/im/pictures/579f5726-1f4e-48dd-8512-00cd0775943b.jpg?im_w=1440"
+                location="Farm stay in Idukki"
+                title="Manoor Farms: mountain stays"
+                description="4 guests · 1 bedroom · 1 bed · 1 bathroom"
+                star={4.83}
+                price="₹2,500/ night"
+                total="₹7,500"/>
             
             <SearchResult
                 img="https://a0.muscache.com/im/pictures/438725f5-aec2-4b09-afbc-04c97bf223ed.jpg?im_w=1200"
@@ -88,6 +80,15 @@ function SearchPage() {
                 star={3.5}
                 price="₹2,100/ night"
                 total="₹4,200" />
+
+            <SearchResult
+                img="https://a0.muscache.com/im/pictures/6c0e09d9-2537-4c2a-9180-4f14e22a1996.jpg?im_w=1200"
+                location='Farm stay in Damkhind'
+                title='Aamchi Wadi'
+                description='3 guests · 1 bedroom · 2 beds · 1 bathroom'
+                star={4.95}
+                price="₹1,200/ night"
+                total="₹6,800" />   
         </div>
     )
 }
